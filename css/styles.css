@@ -14,17 +14,17 @@ html, body {
   color: pink;
 }
 
-
 h1 {
   position: relative;
   font-size: 30pt;
   text-align: center;
-
 }
+
 header {
   width: 90vw;
   /*height: 36vh;*/
 }
+
 .nav {
   float: left;
   background: #85ccac;
@@ -114,6 +114,7 @@ li a {
   margin-left: 5vw;
   background-color: grey;
 }
+
 .bottomText {
   font-family: 'Arimo', sans-serif;
   text-align: center;
@@ -141,16 +142,19 @@ li a {
 }
 
 @media only screen and (min-width: 680px) {
+
   header {
     position: absolute;
     width: 30vw;
     height: 36vh;
   }
+
   .navBar {
     position: relative;
     width: 25vw;
     margin-left: 0;
   }
+
   .nav {
     width: 25vw;
     height: 20vh;
@@ -159,25 +163,31 @@ li a {
     margin-left: 0;
     font-size: 2vh;
   }
+
   ul {
     padding-left: 20vw;
   }
+
   .title {
     position: absolute;;
     margin-left: 60vw;
     padding-top: 0;
   }
+
   .square1mini {
     display: none;
   }
+
   .bigDiv {
     width: 100vw;
     height: 69vh;
     margin-left: 0;
   }
+
   .bigDiv img {
     display: block;
   }
+
   .square1 {
     width: 49vw;
     height: 30vh;
@@ -204,19 +214,23 @@ li a {
 }
 
 @media only screen and (min-width: 1080px) {
+
   .square1mini {
     display: none;
   }
+
   header {
     position: absolute;
     width: 30vw;
     height: 36vh;
   }
+
   .navBar {
     position: relative;
     width: 25vw;
     margin-left: 0;
   }
+
   .nav {
     width: 25vw;
     height: 10vh;
@@ -231,6 +245,7 @@ li a {
     height: 100vh;
     float: left;
   }
+
   .title {
     position: absolute;;
     margin-left: 40vw;
