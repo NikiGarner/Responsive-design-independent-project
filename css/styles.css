@@ -1,0 +1,278 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  background: white;
+  color: pink;
+}
+
+
+h1 {
+  position: relative;
+  font-size: 30pt;
+  text-align: center;
+
+}
+header {
+  width: 90vw;
+  /*height: 36vh;*/
+}
+.nav {
+  float: left;
+  background: #85ccac;
+  height: 10vh;
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 5vw;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li:hover {
+  background-color: lightgrey;
+}
+
+.title {
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  font-size: 60%;
+  padding-top: 10vh;
+}
+
+.bigDiv {
+  display: block;
+  width: 90vw;
+  height: 60vh;
+  margin-left: 5vw;
+  overflow: hidden;
+}
+
+.bigDiv img {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  max-width: 100vw;
+  margin-left: 50px;
+}
+
+.logo-text {
+  position: relative;
+  padding-left: 2vw;
+  margin-top: 70px;
+  text-align: center;
+  color: grey;
+}
+
+.square1 {
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: black;
+}
+
+.square1mini {
+  width: 90vw;
+  height: 10vh;
+  margin-left: 5vw;
+  background-color: grey;
+}
+
+.square1mini {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.square2 {
+  width: 90vw;
+  margin-left: 5vw;
+  background-color: grey;
+}
+.bottomText {
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  font-size: 2vh;
+}
+
+@media only screen and (max-width: 400px){
+
+  .square1 {
+    display: none;
+  }
+
+  .square2 {
+    height: 30vh;
+    margin-top: 5vh;
+  }
+
+  .bottomSquare {
+    padding-top: 10vh;
+  }
+
+  .bottomSquare li {
+    font-size: 4vh;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  header {
+    position: absolute;
+    width: 30vw;
+    height: 36vh;
+  }
+  .navBar {
+    position: relative;
+    width: 25vw;
+    margin-left: 0;
+  }
+  .nav {
+    width: 25vw;
+    height: 20vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    margin-left: 0;
+    font-size: 2vh;
+  }
+  ul {
+    padding-left: 20vw;
+  }
+  .title {
+    position: absolute;;
+    margin-left: 60vw;
+    padding-top: 0;
+  }
+  .square1mini {
+    display: none;
+  }
+  .bigDiv {
+    width: 100vw;
+    height: 69vh;
+    margin-left: 0;
+  }
+  .bigDiv img {
+    display: block;
+  }
+  .square1 {
+    width: 49vw;
+    height: 30vh;
+    float: left;
+    background-color: pink;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .square2 {
+    width: 49vw;
+    height: 30vh;
+    float: right;
+    background-color: grey;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .bottomSquare {
+    margin-left: 0;
+    padding-left: 10vh;
+    padding-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .square1mini {
+    display: none;
+  }
+  header {
+    position: absolute;
+    width: 30vw;
+    height: 36vh;
+  }
+  .navBar {
+    position: relative;
+    width: 25vw;
+    margin-left: 0;
+  }
+  .nav {
+    width: 25vw;
+    height: 10vh;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    margin-left: 0;
+    font-size: 2vh;
+  }
+
+  .bigDiv {
+    width: 62.5vw;
+    height: 100vh;
+    float: left;
+  }
+  .title {
+    position: absolute;;
+    margin-left: 40vw;
+    padding-top: 0;
+  }
+
+  .square1 {
+    width: 35vw;
+    height: 49vh;
+    margin-top: 0;
+    float: right;
+  }
+
+  .logo {
+    margin-top: 50px;
+    margin-left: 81px;
+  }
+
+  .logo-text {
+    position: relative;;
+    padding-left: 1vw;
+    margin-top: 125px;
+    text-align: center;
+    color: grey;
+  }
+
+  .square2 {
+    width: 35vw;
+    height: 49vh;
+    float: right;
+  }
+
+  .bottomSquare {
+    margin-left: 0;
+    padding-left: 6vh;
+    padding-top: 15vh;
+    font-size: 5vh;
+  }
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
