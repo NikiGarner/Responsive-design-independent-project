@@ -1,6 +1,6 @@
-# Niki Garner
+# Responsive-design-independent-project, 7/8/2016
 
-#### Responsive-design-independent-project, 7/8/2016
+#### Epicodus
 
 #### By Niki Garner
 
